@@ -1,0 +1,77 @@
+export const projects = [
+  {
+    id: "green-valley",
+    name: "Green Valley",
+    location: "Your Area, Your City",
+    status: "Ongoing",
+    startingPrice: "₹12 Lakh",
+    plotSizes: "1000 - 2400 sq ft",
+    rera: "RERA-0000-0001",
+    image: "/projects/project1.jpg",
+    description:
+      "Green Valley is a well-planned residential plot project with wide roads, green parks, and all basic facilities ready.",
+    amenities: [
+      "Wide Roads",
+      "Park",
+      "Water Supply",
+      "Street Lights",
+      "Boundary Wall",
+    ],
+    mapUrl: "https://www.google.com/maps?q=India+Gate+New+Delhi&output=embed",
+    gallery: [
+      "/projects/project1.jpg",
+      "/projects/project2.jpg",
+      "/projects/project3.jpg",
+    ],
+  },
+  {
+    id: "sunrise-enclave",
+    name: "Sunrise Enclave",
+    location: "Your Area, Your City",
+    status: "Upcoming",
+    startingPrice: "₹18 Lakh",
+    plotSizes: "1200 - 3000 sq ft",
+    rera: "RERA-0000-0002",
+    image: "/projects/project2.jpg",
+    description:
+      "Sunrise Enclave is a premium gated society close to the main highway, planned for comfortable family living.",
+    amenities: [
+      "Gated Entry",
+      "Club House",
+      "Children's Play Area",
+      "CCTV Security",
+      "Drainage",
+    ],
+    mapUrl: "https://www.google.com/maps?q=India+Gate+New+Delhi&output=embed",
+    gallery: [
+      "/projects/project1.jpg",
+      "/projects/project2.jpg",
+      "/projects/project3.jpg",
+    ],
+  },
+  {
+    id: "royal-meadows",
+    name: "Royal Meadows",
+    location: "Your Area, Your City",
+    status: "Completed",
+    startingPrice: "₹9 Lakh",
+    plotSizes: "800 - 1800 sq ft",
+    rera: "RERA-0000-0003",
+    image: "/projects/project3.jpg",
+    description:
+      "Royal Meadows is a completed project where families have already built their homes, with all development work finished.",
+    amenities: [
+      "Concrete Roads",
+      "Electricity",
+      "Water Supply",
+      "Temple",
+      "Park",
+    ],
+    mapUrl: "https://www.google.com/maps?q=India+Gate+New+Delhi&output=embed",
+    gallery: [
+      "/projects/project1.jpg",
+      "/projects/project2.jpg",
+      "/projects/project3.jpg",
+    ],
+  },
+];
