@@ -80,7 +80,7 @@ function Navbar() {
             to="/"
             sx={{ textDecoration: "none", color: "inherit", fontWeight: 700 }}
           >
-            Your Company
+            HighVision
           </Typography>
 
           {/* Desktop buttons */}
