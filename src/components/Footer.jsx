@@ -3,8 +3,12 @@ import { Link } from "react-router-dom";
 
 const quickLinks = [
   { label: "Home", path: "/" },
+  { label: "About", path: "/about" },
   { label: "Projects", path: "/projects" },
   { label: "Contact", path: "/contact" },
+  { label: "Plots", path: "/plots" },
+  { label: "EMI Calculator", path: "/emi-calculator" },
+  { label: "Area Converter", path: "/area-converter" },
 ];
 
 function Footer() {
@@ -24,7 +28,7 @@ function Footer() {
           {/* Column 1: about */}
           <Box>
             <Typography variant="h6" sx={{ color: "white", fontWeight: 700 }}>
-              highVision
+              HighVision
             </Typography>
             <Typography variant="body2" sx={{ mt: 1 }}>
               Trusted plots and well-planned societies for your future home.

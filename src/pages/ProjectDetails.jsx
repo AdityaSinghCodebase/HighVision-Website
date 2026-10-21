@@ -4,6 +4,7 @@ import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import { projects } from "../data/projects";
 import MapEmbed from "../components/MapEmbed";
 import ProjectGallery from "../components/ProjectGallery";
+import EnquiryForm from "../components/EnquiryForm";
 
 function ProjectDetails() {
   const { id } = useParams();
@@ -107,6 +108,10 @@ function ProjectDetails() {
         Location
       </Typography>
       <MapEmbed src={project.mapUrl} title={`${project.name} location map`} />
+
+      <Box sx={{ mt: 6 }}>
+        <EnquiryForm projectName={project.name} />
+      </Box>
     </Container>
   );
 }
